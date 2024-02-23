@@ -1,4 +1,4 @@
-# Vote App
+# Poll App
 
 Build a Voting App created with the MERN stack
 
