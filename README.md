@@ -1,8 +1,8 @@
 # Vote App
 
-freeCodeCamp Build a Voting App created with the MERN stack
+Build a Voting App created with the MERN stack
 
-## User Stories
+## Key Points
 
 * As an authenticated user, I can keep my polls and come back later to access them.
 * As an authenticated user, I can share my polls with my friends.
