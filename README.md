@@ -1,6 +1,6 @@
 # Poll App
 
-Build a Voting App created with the MERN stack
+Build a Polling App created with the MERN stack
 
 ## Key Points
 
