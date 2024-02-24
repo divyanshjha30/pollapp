@@ -43,7 +43,7 @@ const Navbar = ({ auth, logout }) => (
         )}
       </ul>
       {auth.isAuthenticated && (
-        <p className="navbar-user">Logged in as {auth.user.username}</p>
+        <p className="navbar-user">Welcome! {auth.user.username}</p>
       )}
     </div>
   </nav>

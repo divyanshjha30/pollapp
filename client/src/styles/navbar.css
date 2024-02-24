@@ -3,13 +3,20 @@
 }
 
 .navbar-brand {
-  background-color: var(--light);
-  color: blue;
+  background-color: transparent;
+  border: 2px solid lightgray;
+  font-family: "Raleway", sans-serif;
+  color: white;
   text-decoration: none;
   padding: 0.5rem;
   border-radius: 0.5rem;
   text-transform: uppercase;
   font-weight: bold;
+  transition: all 0.4s ease-out;
+  font-size: larger;
+}
+.navbar-brand:hover{
+  background-color: lightgray;
 }
 
 .navbar-container {
@@ -19,17 +26,23 @@
 }
 
 .navbar-item {
-  background-color: var(--light);
-  color: var(--blue);
+  background-color: transparent;
+  transition: all 0.4s ease-out;
+  border: 2px solid lightgray;
+  font-family: "Raleway", sans-serif;
+  color: white;
   text-decoration: none;
   padding: 0.5rem;
   border-radius: 0.5rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-size: small;
+}
+.navbar-item:hover{
+  background-color: lightgray;
 }
 
 .navbar-user {
   margin-top: 2rem;
   text-align: right;
-  color: var(--light);
+  color: white;
 }

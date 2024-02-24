@@ -1,15 +1,35 @@
 .polls li {
-  background-color: var(--light);
-  color: var(--blue);
+  color: lightgray;
+  border: 2px solid;
+  border-color: darkgrey;
+  border-radius: 20px;
   padding: 1rem;
   margin: 1rem;
   text-align: center;
+
+  animation: gradient 15s ease infinite;
+  overflow: auto;
+  background-size: 400% 400%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 750;
+  transition: all 0.4s ease-out;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
 }
 
 
 
 .polls li:hover {
-  border: 2px solid var(--blue);
+  background-color: darkgray;
 }
 
 .poll-title {

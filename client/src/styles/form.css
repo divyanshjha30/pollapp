@@ -1,7 +1,9 @@
 .form {
   width: 60%;
   margin: 1rem auto;
-  background-color: var(--blue);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  background-color: transparent;
   padding: 1rem;
   border-radius: 0.4rem;
 }
@@ -19,6 +21,7 @@
 
 .form-label {
   color: white;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
